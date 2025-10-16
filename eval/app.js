@@ -1,5 +1,5 @@
 function renderBooks() {
-  const tbody = document.getElementById('book-list');
+  const tbody = document.getElementById('bok-list');
   tbody.innerHTML = '';
 
   books.forEach((book, index) => {
